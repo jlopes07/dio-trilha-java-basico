@@ -25,6 +25,17 @@ public class Operadores {
         numero = numero * -1;
         System.out.println(numero);
 
+        numero = numero + 1;
+        System.out.println(numero);
+        numero++;
+        System.out.println(numero);
+        System.out.println(numero ++); //incrementa depois de imprimir
+        System.out.println(numero);
+        System.out.println( ++ numero); // incrementa antes
+
+        boolean variavel = true;
+        variavel = !variavel;
+        System.out.println(variavel);
 
     }
 }
