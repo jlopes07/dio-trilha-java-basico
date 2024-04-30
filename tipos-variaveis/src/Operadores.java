@@ -37,5 +37,24 @@ public class Operadores {
         variavel = !variavel;
         System.out.println(variavel);
 
+        System.out.println("\n");
+
+        int a, b;
+
+        a = 5;
+        b = 6;
+
+        String resultado = "";
+        if(a==b)
+        resultado = "verdadeiro";
+        else
+        resultado = "falso";
+
+        System.out.println(resultado);
+        
+        String valor = (a==b) ? "verdadeiro" : "falso";
+
+        System.out.println(valor);
+
     }
 }
