@@ -17,7 +17,7 @@ public class Operadores {
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
         
-        System.out.println("\n");
+        System.out.println("\n\n*****************\n");
 
         int numero = 5; 
         numero = - numero;
@@ -37,7 +37,7 @@ public class Operadores {
         variavel = !variavel;
         System.out.println(variavel);
 
-        System.out.println("\n");
+        System.out.println("\n\n*****************\n");
 
         int a, b;
 
@@ -55,6 +55,36 @@ public class Operadores {
         String valor = (a==b) ? "verdadeiro" : "falso";
 
         System.out.println(valor);
+
+        System.out.println("\n\n*****************\n");
+
+        String nomeUm = "GLEYSON";
+        String nomeDois = new String("GLEYSON");
+
+        System.out.println(nomeUm.equals(nomeDois));
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+
+        if(numero1 < numero2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        if(numero1 == numero2){
+            System.out.println("a nossa condição é verdadeira.");
+        }
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        boolean simNao2 = numero1 != numero2;
+
+        System.out.println("numeroUm é diferente a numeroDois? " + simNao2);
+
+        boolean simNao3 = numero1 > numero2;
+
+        System.out.println("numeroUm é maior a numeroDois? " + simNao3);
 
     }
 }
