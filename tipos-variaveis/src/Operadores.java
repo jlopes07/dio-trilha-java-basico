@@ -86,5 +86,19 @@ public class Operadores {
 
         System.out.println("numeroUm é maior a numeroDois? " + simNao3);
 
+        System.out.println("\n\n*****************\n");
+
+        boolean condicao1=true;
+
+        boolean condicao2=false;
+
+        if(condicao1 && condicao2)
+            System.out.print("Os dois valores precisam ser verdadeiros");;
+
+        if(condicao1 || condicao2)
+            System.out.print("Um dos valores precisa ser verdadeiro");
+
+        System.out.println("\n\n*****************\n");
+
     }
 }
